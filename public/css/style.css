@@ -1,0 +1,172 @@
+/*  Color pallete  */
+:root {
+    --white: #f6f5f5;
+    --light-blue: #d3e0ea;
+    --dark-blue: #276678;
+    --blue: #1687a7;
+}
+
+/* GENERAL STYLES */
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--blue);
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* NAVIGATION */
+.fixed-top {
+    height: 70px;
+}
+.gradient {
+    background: rgb(246, 245, 245);
+    background: -webkit-linear-gradient(
+        35deg,
+        rgba(246, 245, 245, 1) 0%,
+        rgba(211, 224, 234, 1) 100%
+    );
+    background: -o-linear-gradient(
+        35deg,
+        rgba(246, 245, 245, 1) 0%,
+        rgba(211, 224, 234, 1) 100%
+    );
+    background: linear-gradient(
+        125deg,
+        rgba(246, 245, 245, 1) 0%,
+        rgba(211, 224, 234, 1) 100%
+    );
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+}
+#farm-1 img {
+    align-items: center;
+    width: 350px;
+    margin: auto;
+}
+.page-header img {
+    max-width: 650px;
+    padding: 30px;
+}
+.section-1 img {
+    max-width: 200px;
+}
+.feature {
+    color: var(--blue);
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url(../img/checkmark.png);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pd-top {
+    padding-top: 75px;
+}
+
+.icons {
+    display: inline-flex;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+#loansvg img {
+    width: 390px;
+}
+#reportsvg img {
+    align-items: center;
+    width: 390px;
+    margin: auto;
+}
+img.smol {
+    width: 600px;
+}
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    padding: 50px 0 50px 0;
+    color: green;
+}
+#tractorsvg img {
+    align-items: center;
+    width: 390px;
+    margin: auto;
+}
+@media screen and (max-width: 900px) {
+    #tractorsvg img {
+        align-items: center;
+        width: 330px;
+        margin: auto;
+    }
+    #loansvg img {
+        width: 330px;
+    }
+    #reportsvg img {
+        align-items: center;
+        width: 330px;
+        margin: auto;
+    }
+    #cont-f {
+        display: flex;
+    }
+    #wheat img {
+        align-items: center;
+        width: 330px;
+        margin: auto;
+    }
+    #farm img {
+        align-items: center;
+        width: 330px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    #farm-1 img {
+        width: 330px;
+    }
+}
+#farm img {
+    display: none;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.marg{
+    margin-top: 90px!important;
+}
+.lg{
+    font-size: 1rem;
+}
